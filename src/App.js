@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Places />
       <QuestionList />
-    <p>Hello</p>
+   
     </div>
   );
 }
