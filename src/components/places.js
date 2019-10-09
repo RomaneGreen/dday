@@ -9,7 +9,7 @@ export default class Googleplaces extends Component {
     }
 
     componentDidMount() {
-    fetch("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.663918,-73.8820044&radius=1500&type=restaurant&keyword=drinks&key=AIzaSyCGjREc2FZhlFgX2iCtdTluvQo4Mu9Tln4",{
+    fetch("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.663918,-73.8820044&radius=1500&type=restaurant&keyword=drinks&key=",{
         
             method: 'GET',
             headers:{
